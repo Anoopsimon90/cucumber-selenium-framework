@@ -1,17 +1,18 @@
+@smoke
 Feature: Bing Search
 
-  Scenario Outline: a few cukes
+  Scenario Outline: Search
     Given I search in bing with a random data
     Examples:
-      | A |
+      | testId |
       | 1 |
       | 2 |
       | 3 |
       | 4 |
 
-  Scenario: a few cukes1
+  Scenario: Login
     Given I search in bing with a random data
 
 
-  Scenario: a few cukes2
+  Scenario: Logout
     Given I search in bing with a random data

@@ -29,7 +29,8 @@ task execCucumber {
             classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
             args = ['--plugin', 'pretty',
                     '--glue','stepdefinition','src/test/resources/features',
-                    '--threads','6'
+                    '--threads','3',
+                    '--tags','@smoke'
             ]
 
         }
