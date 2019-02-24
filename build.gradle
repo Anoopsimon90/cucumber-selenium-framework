@@ -15,6 +15,7 @@ dependencies {
     testCompile 'io.cucumber:cucumber-junit:' + cucumberVersion
     testCompile 'info.cukes:cucumber-java:1.2.4'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+
 }
 
 /*
